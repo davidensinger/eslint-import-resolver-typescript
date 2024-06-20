@@ -306,10 +306,12 @@ function getMappedPath(
     if (isJs) {
       const jsExt = path.extname(source)
       const tsExt = jsExt.replace('js', 'ts')
+      const tsxExt = jsExt.replace('js', 'tsx')
       const basename = source.replace(JS_EXT_PATTERN, '')
 
       const resolved =
         getMappedPath(basename + tsExt, file) ||
+        getMappedPath(basename + tsxExt, file) ||
         getMappedPath(
           basename + '.d' + (tsExt === '.tsx' ? '.ts' : tsExt),
           file,
