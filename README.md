@@ -1,5 +1,7 @@
 # eslint-import-resolver-typescript
 
+**This is a fork because I wanted this fix 9569460d0ac91353c3e3c92d3c30fff74a3cf690 sooner than later**
+
 [![GitHub Actions](https://github.com/import-js/eslint-import-resolver-typescript/workflows/CI/badge.svg)](https://github.com/import-js/eslint-import-resolver-typescript/actions/workflows/ci.yml)
 [![type-coverage](https://img.shields.io/badge/dynamic/json.svg?label=type-coverage&prefix=%E2%89%A5&suffix=%&query=$.typeCoverage.atLeast&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fimport-js%2Feslint-import-resolver-typescript%2Fmaster%2Fpackage.json)](https://github.com/plantain-00/type-coverage)
 [![npm](https://img.shields.io/npm/v/eslint-import-resolver-typescript.svg)](https://www.npmjs.com/package/eslint-import-resolver-typescript)

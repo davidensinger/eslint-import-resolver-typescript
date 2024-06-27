@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.6.2
+
+### Patch Changes
+
+- [`9569460`](https://github.com/davidensinger/eslint-import-resolver-typescript/commit/9569460d0ac91353c3e3c92d3c30fff74a3cf690) - fix: add support for tsconfig.json paths imports with .js extension for tsx importee
+
 ## 3.6.1
 
 ### Patch Changes
